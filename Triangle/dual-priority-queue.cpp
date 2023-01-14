@@ -32,9 +32,6 @@ vector<int> solution(vector<string> operations) {
         answer.push_back(*min_element(last.begin(), last.end()));
     }
 
-    for(int i=0; i<answer.size();i++) {
-        cout << answer[i];
-    }
     return answer;
 }
 
@@ -43,6 +40,6 @@ int main() {
     vector<string> exam2 = {"I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"};
     
     solution(exam1);
-    
+
     return 0;
 }
